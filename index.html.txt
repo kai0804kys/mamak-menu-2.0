@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamak Shop Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+        .menu-container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #d9534f;
+        }
+        .category {
+            font-size: 1.5em;
+            color: #5bc0de;
+            margin-top: 20px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>Mamak Shop Menu</h1>
+        
+        <div class="category">Goreng</div>
+        <div class="menu-item"><span>Mee Goreng</span> <span>RM4.50</span></div>
+        <div class="menu-item"><span>Bihun Goreng</span> <span>RM4.50</span></div>
+        <div class="menu-item"><span>Kuey Teow Goreng</span> <span>RM4.50</span></div>
+        <div class="menu-item"><span>Maggi Goreng</span> <span>RM4.50</span></div>
+        
+        <div class="category">Drinks</div>
+        <div class="menu-item"><span>Teh Tarik</span> <span>RM1.30 - RM1.80</span></div>
+        <div class="menu-item"><span>Kopi Tarik</span> <span>RM1.30 - RM1.80</span></div>
+        <div class="menu-item"><span>Milo Tarik</span> <span>RM2.20 - RM2.60</span></div>
+        <div class="menu-item"><span>Sirap Bandung</span> <span>RM1.80 - RM2.00</span></div>
+        
+        <div class="category">Nasi</div>
+        <div class="menu-item"><span>Nasi Lemak</span> <span>RM3.00 - RM7.00</span></div>
+        <div class="menu-item"><span>Nasi Goreng Kampung</span> <span>RM5.80</span></div>
+        <div class="menu-item"><span>Nasi Goreng Tom Yam</span> <span>RM8.00</span></div>
+        
+        <div class="category">Roti</div>
+        <div class="menu-item"><span>Roti Canai</span> <span>RM1.20</span></div>
+        <div class="menu-item"><span>Roti Telur</span> <span>RM2.40</span></div>
+        <div class="menu-item"><span>Roti Tisu</span> <span>RM3.50</span></div>
+        <div class="menu-item"><span>Murtabak Ayam/Daging</span> <span>RM7.50</span></div>
+        
+        <div class="category">Western Food</div>
+        <div class="menu-item"><span>Chicken Chop</span> <span>RM13.90</span></div>
+        <div class="menu-item"><span>Lamb Chop</span> <span>RM16.90</span></div>
+        <div class="menu-item"><span>Roti John</span> <span>RM4.50 - RM8.50</span></div>
+    </div>
+</body>
+</html>
